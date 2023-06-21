@@ -192,12 +192,12 @@
 }
 .feynman-image {
   background-image: url(images/feynman.png);
-  position: absolute;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: bottom left;
   width: 867px;
   height: 637px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
 }
 .feynman-title {
   width: 775px;
@@ -208,6 +208,7 @@
   margin-top: 20px;
   text-align: center;
   z-index: 1;
+  margin-top: 100px;
 }
 .feynman-subtitle {
   margin-top: 70px;
