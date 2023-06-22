@@ -169,6 +169,8 @@
   flex-wrap: wrap;
   row-gap: 60px;
   margin-top: 60px;
+  margin-left: auto;
+  margin-right:auto;
 }
 .table .table-cell {
   width: 250px;
@@ -283,36 +285,78 @@
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
+
 }
-.footer_link{
- color: #f2f2f2;
- position: row;
-}
-.footer_columns{
-width: 90%;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-}
-.footer__column-link{
-color: #f2f2f2;
-text-decoration: none;
-}
-.footer__column_content_copyright{
-  color: #f2f2f2;
-  height: 100%;
+.footer__columns{
+  width: 90%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  flex-basis: 711px;
-}
-.footer__author{
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  color: #f2f2f2;
-}
-.footer__column-heading{
+  }
+  .footer__column_content_copyright{
+    color: #f2f2f2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 711px;
+  }
+  .logo_place__footer{
+    position: top;
+    width: 183px;
+    height: 35px;
+    position: absolute;
+    top: 60px;
+    left: 64px;
+   }
+   .footer__author{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f2f2f2;
+    position: absolute;
+    left: 64px;
+    margin: 0;
+    bottom: 18px;
+  }
+  .footer__column_about{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #f2f2f2;
+  }
+  .footer__column-heading{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f2f2f2;
+    margin: 0;
+    position: top;
+  }
+  .footer__list{
+    text-decoration: dotted;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    list-style: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 0;
+    position: relative;
+  }
+  .footer__column-link{
+    color: #f2f2f2;
+    text-decoration: none;
+    position: row;
+    }
+  .footer__column-social{
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -321,15 +365,4 @@ text-decoration: none;
   justify-content: space-between;
   color: #f2f2f2;
   margin: 0;
-}
-.footer__list{
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  list-style: none;
-  color: #f2f2f2;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-left: 0;
 }
