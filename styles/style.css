@@ -236,7 +236,7 @@
   margin-right:auto;
   margin-bottom: 100px;
 }
-.table-cell {
+.table__cell {
   width: 250px;
 }
 .table__cell--theme-dark {
