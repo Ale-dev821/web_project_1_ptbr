@@ -520,3 +520,6 @@
   color: #f2f2f2;
   margin: 0;
 }
+iframe {
+  border: 10px solid transparent;
+}
