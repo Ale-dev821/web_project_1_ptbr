@@ -54,6 +54,9 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  position: absolute;
+  left: 64px;
+  bottom: 20px;
 }
 
 .header__main-illustration {
