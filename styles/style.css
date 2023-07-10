@@ -451,7 +451,7 @@
   align-items: center;
   justify-content: space-between;
   }
-  .footer__column_content_copyright{
+  .footer__column_content-copyright{
     color: #f2f2f2;
     height: 100%;
     display: flex;
@@ -459,7 +459,7 @@
     justify-content: space-between;
     flex-basis: 711px;
   }
-  .logo_place__footer{
+  .logo_place_footer{
     position: top;
     width: 183px;
     height: 35px;
@@ -476,7 +476,7 @@
     margin: 0;
     bottom: 18px;
   }
-  .footer__column_about{
+  .footer__column-about{
     position: relative;
     display: flex;
     justify-content: space-between;
