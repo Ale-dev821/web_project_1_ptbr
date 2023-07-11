@@ -1,0 +1,76 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    position: relative;
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+  
+  .logo_place_header {
+    width: 154px;
+    height: 31px;
+    position: absolute;
+    top: 30px;
+    left: 64px;
+  }
+  
+  .header__title {
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    width: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alterado para "flex-start" para alinhar à esquerda */
+    position: absolute;
+    top: 50%;
+    left: 64px;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .header__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    width: 388px;
+    left: 64px;
+    bottom: 30px;
+    z-index: 2;
+    position: absolute;
+  }
+  
+  .header__link {
+    color: #2f80ed;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    position: absolute;
+    left: 64px;
+    bottom: 20px;
+  }
+  
+  .header__main-illustration {
+    height: 608px;
+    width: 756px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header__square {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    width: 568px;
+    height: 568px;
+    background-color: #2f80ed;
+    transform: rotate(-15deg);
+    animation: rotation 20s linear infinite;
+  }

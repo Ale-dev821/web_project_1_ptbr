@@ -43,9 +43,10 @@
   line-height: 25px;
   font-weight: normal;
   width: 388px;
-  position: absolute;
   left: 64px;
   bottom: 30px;
+  z-index: 2;
+  position: absolute;
 }
 
 .header__link {
@@ -315,9 +316,13 @@
   position: absolute;
   margin-right: 48px;
   color: #2f80ed;
-  text-decoration: none;
   height: 50%;
   right: 0;
+  display: inline;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 .khan{
   background-color: #f2f2f2;
